@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(/img/tanjiro-kamado-monochrome-kimetsu-no-yaiba-thumb.jpg);
+    
+}
+.caja{
+    padding: 15px;
+    margin: 25px auto;
+    border: 1px solid gray;
+    display: block;
+    width: 450px;
+    border-radius: 15px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+.caja h1{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.caja .elementos input{
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+
+}
+.caja .elementos input[type="submit"]{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
